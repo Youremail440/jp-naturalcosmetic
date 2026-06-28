@@ -1,0 +1,3 @@
+# Cloudflare Pages routing
+# Serve the main page for any /code/XXXX link (status 200 = rewrite, URL stays as-is)
+/code/*   /index.html   200
