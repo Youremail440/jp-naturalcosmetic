@@ -1,0 +1,4 @@
+# Cloudflare Pages routing
+# Serve the main page for the verification links (status 200 = rewrite, URL stays as-is)
+/c/*      /index.html   200
+/code/*   /index.html   200
